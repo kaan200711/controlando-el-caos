@@ -14,6 +14,8 @@ public class control_codigo1 {
         System.out.println("División: " + (a / b));
         System.out.println("Raíz cuadrada de " + a + ": " + Math.sqrt(a));
 
+        int potencia = (int) Math.pow(a, b);
+        System.out.println("Potencia: " + a + " ^ " + b + " = " + potencia);
 	}
 
 }
