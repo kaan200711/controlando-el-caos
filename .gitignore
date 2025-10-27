@@ -1,11 +1,33 @@
-# Carpetas generadas automaticamente
-/bin/
-
-# Archivos de configuracion de eclipse
+# === Archivos y carpetas de Eclipse ===
 .classpath
 .project
 .settings/
 
-# Archivos del sistema
+# === Carpetas generadas automáticamente ===
+bin/
+target/
+out/
+
+# === Archivos de sistema ===
 .DS_Store
 Thumbs.db
+
+# === Archivos de compilación ===
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.log
+
+# === Dependencias locales (no subir) ===
+/lib/
+
+# === Archivos temporales o de respaldo ===
+*.tmp
+*.bak
+*.swp
+
+# === Archivos de IDEs adicionales (opcional) ===
+.idea/
+.vscode/
