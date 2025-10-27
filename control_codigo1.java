@@ -12,6 +12,8 @@ public class control_codigo1 {
         System.out.println("Resta: " + (a - b));
         System.out.println("Multiplicación: " + (a * b));
         System.out.println("División: " + (a / b));
+          double porcentaje = ((double) a / b) * 100;
+        System.out.println("Porcentaje: " + porcentaje + "%");
 
 	}
 
