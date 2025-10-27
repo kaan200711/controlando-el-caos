@@ -12,6 +12,9 @@ public class control_codigo1 {
         System.out.println("Resta: " + (a - b));
         System.out.println("Multiplicación: " + (a * b));
         System.out.println("División: " + (a / b));
+        
+        int potencia = (int) Math.pow(a, b);
+        System.out.println("Potencia: " + a + " ^ " + b + " = " + potencia);
 
 	}
 
