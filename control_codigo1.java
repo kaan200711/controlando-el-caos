@@ -12,6 +12,7 @@ public class control_codigo1 {
         System.out.println("Resta: " + (a - b));
         System.out.println("Multiplicación: " + (a * b));
         System.out.println("División: " + (a / b));
+        System.out.println("Raíz cuadrada de " + a + ": " + Math.sqrt(a));
 
 	}
 
