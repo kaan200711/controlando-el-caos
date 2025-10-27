@@ -15,6 +15,7 @@ public class control_codigo1 {
 
         int potencia = (int) Math.pow(a, b);
         System.out.println("Potencia: " + a + " ^ " + b + " = " + potencia);
+        
 	}
 
 }
