@@ -14,6 +14,7 @@ public class control_codigo1 {
         System.out.println("División: " + (a / b));
           double porcentaje = ((double) a / b) * 100;
         System.out.println("Porcentaje: " + porcentaje + "%");
+        System.out.println("Raíz cuadrada de " + a + ": " + Math.sqrt(a));
 
         int potencia = (int) Math.pow(a, b);
         System.out.println("Potencia: " + a + " ^ " + b + " = " + potencia);
